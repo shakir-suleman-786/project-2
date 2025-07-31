@@ -17,7 +17,7 @@ async function getpic() {
     return pic.data.message;
     }catch(err){
         console.log(err)
-       console.log("picture not found")    }
+       return "picture not found"   }
    
     
 }
