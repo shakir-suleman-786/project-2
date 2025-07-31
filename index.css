@@ -1,0 +1,15 @@
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: auto;
+}
+h1{
+  text-transform: uppercase;   
+  color: blue;
+  background-color: paleturquoise;
+}
+body{
+    text-align: center;
+}
