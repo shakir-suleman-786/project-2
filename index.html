@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Dog Photo Generator</title>
 </head>
 <body>
-    <h1> generate the random picture of dog</h1>
-    
-    <img src="#" alt="dog picture" id="result" height="200px" width="450px">
-    <br>
-    <br>
-    <button> random picture</button>
+    <div class="container">
+        <h1>🐶 Dog Vision</h1>
+        <p>Click the button to see a cute random dog!</p>
+        
+        <div class="image-card">
+            <img src="https://via.placeholder.com/450x300?text=Click+Below+To+Start" alt="dog picture" id="result">
+        </div>
+        
+        <button id="btn">Get New Picture</button>
+    </div>
    
-    
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="index.js"></script>
-    
 </body>
 </html>
